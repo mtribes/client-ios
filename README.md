@@ -15,7 +15,7 @@
 First you'll need to integrate your mtribes Space by following our
 [quickstart guide](https://mtribes.com/org/_space/developer).
 
-### Library Installation
+### Framework Installation
 
 Our iOS library is packaged as an XCFramework. 
 
