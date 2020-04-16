@@ -17,11 +17,14 @@ First you'll need to integrate your mtribes Space by following our
 
 ## Framework Installation
 
-Our iOS library is packaged as an XCFramework. 
+Our iOS library is packaged as an XCFramework.
 
-XCFramework is not supported by Carthage yet, the reconmendaton is to install it via [CocoaPods](https://cocoapods.org) or manually.
+XCFramework is not supported by Carthage yet, the reconmendaton is to install it
+via [CocoaPods](https://cocoapods.org) or manually.
 
 ### CocoaPods
+
+CocoaPods 1.9.0 or newer is required to install a XCFramework.
 
 To install the library using CocoaPods, follow these steps:
 
@@ -39,10 +42,12 @@ pod install
 
 ### Manual Installation
 
-1. Download the latest library from the [releases](https://github.com/mtribes/client-ios/releases) page and
-   place the framework under your application.
-1. Select your application project in the `Project Navigator` and select the application target under
-   the `TARGETS` heading.
+1. Download the latest library from the
+   [releases](https://github.com/mtribes/client-ios/releases) page and place the
+   framework under your application.
+1. Select your application project in the `Project Navigator` and select the
+   application target under the `TARGETS` heading.
 1. Select `General` tab at the top.
-1. Drag and drop `Mtribes.xcframework` under `Frameworks, Libraries, and Embedded Content` section,
-   make sure the library is `Embed & Sign`.
+1. Drag and drop `Mtribes.xcframework` under
+   `Frameworks, Libraries, and Embedded Content` section, make sure the library
+   is `Embed & Sign`.
