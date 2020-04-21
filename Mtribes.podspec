@@ -6,7 +6,7 @@ Pod::Spec.new do |mtribes|
 
   mtribes.homepage     = "https://mtribes.com/"
 
-  mtribes.license      = { :type => "Apache License, Version 2.0", :file => "LICENSE.txt" }
+  mtribes.license      = { :type => "proprietary", :file => "LICENSE.txt" }
 
   mtribes.author       = { "Deltatre" => "Register@deltatre.com" }
 
