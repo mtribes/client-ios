@@ -1,0 +1,9 @@
+Changed files:
+- SSLClientCertificate.swift
+- SSLSecurity.swift
+- WebSocket.swift
+
+What has changed:
+Get rid of all open and public access level functions and classes.
+All classes/functions/structs/emuns now have internal access level
+and can not be used by other modules.
