@@ -6,15 +6,28 @@
 	<array>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>watchos-i386-simulator</string>
+			<string>ios-armv7_arm64</string>
 			<key>LibraryPath</key>
 			<string>Mtribes.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
-				<string>i386</string>
+				<string>armv7</string>
+				<string>arm64</string>
 			</array>
 			<key>SupportedPlatform</key>
-			<string>watchos</string>
+			<string>ios</string>
+		</dict>
+		<dict>
+			<key>LibraryIdentifier</key>
+			<string>tvos-x86_64-simulator</string>
+			<key>LibraryPath</key>
+			<string>Mtribes.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>x86_64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>tvos</string>
 			<key>SupportedPlatformVariant</key>
 			<string>simulator</string>
 		</dict>
@@ -29,18 +42,6 @@
 			</array>
 			<key>SupportedPlatform</key>
 			<string>tvos</string>
-		</dict>
-		<dict>
-			<key>LibraryIdentifier</key>
-			<string>macos-x86_64</string>
-			<key>LibraryPath</key>
-			<string>Mtribes.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>x86_64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>macos</string>
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>
@@ -59,6 +60,18 @@
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>
+			<string>macos-x86_64</string>
+			<key>LibraryPath</key>
+			<string>Mtribes.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>x86_64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>macos</string>
+		</dict>
+		<dict>
+			<key>LibraryIdentifier</key>
 			<string>watchos-armv7k_arm64_32</string>
 			<key>LibraryPath</key>
 			<string>Mtribes.framework</string>
@@ -72,30 +85,17 @@
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>tvos-x86_64-simulator</string>
+			<string>watchos-i386-simulator</string>
 			<key>LibraryPath</key>
 			<string>Mtribes.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
-				<string>x86_64</string>
+				<string>i386</string>
 			</array>
 			<key>SupportedPlatform</key>
-			<string>tvos</string>
+			<string>watchos</string>
 			<key>SupportedPlatformVariant</key>
 			<string>simulator</string>
-		</dict>
-		<dict>
-			<key>LibraryIdentifier</key>
-			<string>ios-armv7_arm64</string>
-			<key>LibraryPath</key>
-			<string>Mtribes.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>armv7</string>
-				<string>arm64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>ios</string>
 		</dict>
 	</array>
 	<key>CFBundlePackageType</key>

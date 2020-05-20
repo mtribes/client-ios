@@ -1,7 +1,7 @@
 Pod::Spec.new do |mtribes|
 
   mtribes.name         = "Mtribes"
-  mtribes.version      = "0.1.0"
+  mtribes.version      = "0.2.0"
   mtribes.summary      = "mtribes is a UX personalization platform that brings audience segmentation, user targeting and real-time insights together."
 
   mtribes.homepage     = "https://mtribes.com/"
