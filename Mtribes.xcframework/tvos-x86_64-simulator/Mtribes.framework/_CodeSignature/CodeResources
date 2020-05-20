@@ -14,35 +14,35 @@
 		</data>
 		<key>Headers/Mtribes-Swift.h</key>
 		<data>
-		cUlIPFYzrDOgmpZ+CGnhVe1P9gM=
+		mfSfCO3InwfcEMCfyyd2bT/5oQc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fIq0WmW9L/QiSMmFdGQ6siHN1vI=
+		D6nDyLeLiJrfgB08gSP1kyjaGGQ=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		qqgCGECYueFTC6o4obnvPYV3yPY=
+		WzFBTgVr0/oM4EXN7M6XrzTQDUo=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		7KdyRfDhsNLVCXzAgc/rL+5a5g0=
+		pTxa+BHxPX8wCTBZRoofatikCyA=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		6rbIpORqb8Fgyevs02UQbsH4USQ=
+		EFdU8I7eEkGDuunt7ipMzamCRb4=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		qqgCGECYueFTC6o4obnvPYV3yPY=
+		WzFBTgVr0/oM4EXN7M6XrzTQDUo=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		7KdyRfDhsNLVCXzAgc/rL+5a5g0=
+		pTxa+BHxPX8wCTBZRoofatikCyA=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		6rbIpORqb8Fgyevs02UQbsH4USQ=
+		EFdU8I7eEkGDuunt7ipMzamCRb4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,77 +77,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cUlIPFYzrDOgmpZ+CGnhVe1P9gM=
+			mfSfCO3InwfcEMCfyyd2bT/5oQc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Mt4zMSN4vUW+zdbAD/3o3O6acu3AJWKiJ2So9Hyy6yc=
+			F4QJUpjehaD40aB4f2RNIH4hbyUrnrbHqj6gWsCjTCQ=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qqgCGECYueFTC6o4obnvPYV3yPY=
+			WzFBTgVr0/oM4EXN7M6XrzTQDUo=
 			</data>
 			<key>hash2</key>
 			<data>
-			d5/sO/9HTuYoc+6QIEtPtUrSQFUpXgydNDeWY7ZrzHg=
+			cBC56rX0EnOzMEy4tRPg0XBg/9mkV7Q/7ULk/McTKL4=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7KdyRfDhsNLVCXzAgc/rL+5a5g0=
+			pTxa+BHxPX8wCTBZRoofatikCyA=
 			</data>
 			<key>hash2</key>
 			<data>
-			0VF/VlkETyoYPCillumc/0UiPlRuulaLa9SUDoEWkzQ=
+			ndolxrUAG598oSfDXsUVNv6RtjpVaxFPMMKXMNJs9K8=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6rbIpORqb8Fgyevs02UQbsH4USQ=
+			EFdU8I7eEkGDuunt7ipMzamCRb4=
 			</data>
 			<key>hash2</key>
 			<data>
-			pRjMF+W5D0wY4eUGpuWtvI6UAj2wup+gVemwjihQYEc=
+			sCE13DZ+CdRWqfaAoMjuL7rlurxBguCHDRQjyQnpjl0=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qqgCGECYueFTC6o4obnvPYV3yPY=
+			WzFBTgVr0/oM4EXN7M6XrzTQDUo=
 			</data>
 			<key>hash2</key>
 			<data>
-			d5/sO/9HTuYoc+6QIEtPtUrSQFUpXgydNDeWY7ZrzHg=
+			cBC56rX0EnOzMEy4tRPg0XBg/9mkV7Q/7ULk/McTKL4=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7KdyRfDhsNLVCXzAgc/rL+5a5g0=
+			pTxa+BHxPX8wCTBZRoofatikCyA=
 			</data>
 			<key>hash2</key>
 			<data>
-			0VF/VlkETyoYPCillumc/0UiPlRuulaLa9SUDoEWkzQ=
+			ndolxrUAG598oSfDXsUVNv6RtjpVaxFPMMKXMNJs9K8=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6rbIpORqb8Fgyevs02UQbsH4USQ=
+			EFdU8I7eEkGDuunt7ipMzamCRb4=
 			</data>
 			<key>hash2</key>
 			<data>
-			pRjMF+W5D0wY4eUGpuWtvI6UAj2wup+gVemwjihQYEc=
+			sCE13DZ+CdRWqfaAoMjuL7rlurxBguCHDRQjyQnpjl0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
