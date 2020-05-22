@@ -51,3 +51,15 @@ pod install
 1. Drag and drop `Mtribes.xcframework` under
    `Frameworks, Libraries, and Embedded Content` section, make sure the library
    is `Embed & Sign`.
+
+## Update framework
+
+### CocoaPods
+
+Run `pod update Mtribes` to update the library to latest version.
+
+### Manually
+
+Download the latest libbrary from
+[releases](https://github.com/mtribes/client-ios/releases) page and replace the
+existing one.
