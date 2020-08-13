@@ -23,6 +23,7 @@ XCFramework is not supported by Carthage yet, the reconmendaton is to install it
 via [CocoaPods](https://cocoapods.org) or manually.
 
 ### CocoaPods
+![Cocoapods](https://img.shields.io/cocoapods/v/Mtribes?label=mtribes-ios)
 
 CocoaPods 1.9.0 or newer is required to install a XCFramework.
 
