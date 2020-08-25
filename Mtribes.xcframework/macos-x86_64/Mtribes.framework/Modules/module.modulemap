@@ -1,4 +1,0 @@
-framework module Mtribes {
-  header "Mtribes-Swift.h"
-  requires objc
-}
