@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SVXn18TsN3JuymvohIw0pr9bmic=
+		YyYsodeVSlFpNxbl5+yg+C4QSgs=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		GdwySPjmrUJcafCwZ2TSYxdpjlw=
+		w2LCojhGEDTu1BH7Z6xpWYk0ti8=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		WB/MnbpJ/Cf6avD2VuDLbnKvdbo=
+		tNye467t0vwjjSgU4ZIhew7ulq0=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		PxZsRjizkROcquk0TWHWpwQXmQQ=
+		MPnYrwbpwvFdSfWV8jZmxUbcP9g=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		GdwySPjmrUJcafCwZ2TSYxdpjlw=
+		w2LCojhGEDTu1BH7Z6xpWYk0ti8=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		WB/MnbpJ/Cf6avD2VuDLbnKvdbo=
+		tNye467t0vwjjSgU4ZIhew7ulq0=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		PxZsRjizkROcquk0TWHWpwQXmQQ=
+		MPnYrwbpwvFdSfWV8jZmxUbcP9g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -88,66 +88,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GdwySPjmrUJcafCwZ2TSYxdpjlw=
+			w2LCojhGEDTu1BH7Z6xpWYk0ti8=
 			</data>
 			<key>hash2</key>
 			<data>
-			4kkjYtXUWrB79JLwK8t5XdBlSAAuZ4jBn0Wq33oQ4zA=
+			+BWBq3q5jdCvE4Ivd8JvvhigfWBXhGE8UJJ56HqC5pI=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WB/MnbpJ/Cf6avD2VuDLbnKvdbo=
+			tNye467t0vwjjSgU4ZIhew7ulq0=
 			</data>
 			<key>hash2</key>
 			<data>
-			3zds870QF0pL0etddMl3Ya1lSfeR0PZ/FmbxZQ8ANok=
+			sFYPZfU/fIlVBIg8nqn0G5ZeZWqr/3YOojAPM25hsMg=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PxZsRjizkROcquk0TWHWpwQXmQQ=
+			MPnYrwbpwvFdSfWV8jZmxUbcP9g=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y+tiZmSwoI07kdfGIouGSzgFLRjbWylcwhuMm1ykEtE=
+			+MAwmuweyMNC3pKyQ+yAmsglre5W0tc7O8S6+xEFMBU=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GdwySPjmrUJcafCwZ2TSYxdpjlw=
+			w2LCojhGEDTu1BH7Z6xpWYk0ti8=
 			</data>
 			<key>hash2</key>
 			<data>
-			4kkjYtXUWrB79JLwK8t5XdBlSAAuZ4jBn0Wq33oQ4zA=
+			+BWBq3q5jdCvE4Ivd8JvvhigfWBXhGE8UJJ56HqC5pI=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WB/MnbpJ/Cf6avD2VuDLbnKvdbo=
+			tNye467t0vwjjSgU4ZIhew7ulq0=
 			</data>
 			<key>hash2</key>
 			<data>
-			3zds870QF0pL0etddMl3Ya1lSfeR0PZ/FmbxZQ8ANok=
+			sFYPZfU/fIlVBIg8nqn0G5ZeZWqr/3YOojAPM25hsMg=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PxZsRjizkROcquk0TWHWpwQXmQQ=
+			MPnYrwbpwvFdSfWV8jZmxUbcP9g=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y+tiZmSwoI07kdfGIouGSzgFLRjbWylcwhuMm1ykEtE=
+			+MAwmuweyMNC3pKyQ+yAmsglre5W0tc7O8S6+xEFMBU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

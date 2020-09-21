@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Wbp6xAARMBo2Zv5YXFEqYUveUlg=
+		4CnKcDg2s7+UZvR3fd83ASp3NMY=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		0Jd4BLTrf2dNQHLwFJxo172vRYg=
+		D4D/N9aMspZuR2vGI5Qwpaz/e58=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		XExvnydUVrmTa30FspEC5tle3uM=
+		tiG5RNMLwPtpSchjEokF2dmz+HA=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		K4rwF1F1UbRq3L9oRCCV31qZlcM=
+		TUf0dsyMdQ7jr0dpCjg/FxJeH+8=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftdoc</key>
 		<data>
-		0Jd4BLTrf2dNQHLwFJxo172vRYg=
+		D4D/N9aMspZuR2vGI5Qwpaz/e58=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftinterface</key>
 		<data>
-		XExvnydUVrmTa30FspEC5tle3uM=
+		tiG5RNMLwPtpSchjEokF2dmz+HA=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftmodule</key>
 		<data>
-		K4rwF1F1UbRq3L9oRCCV31qZlcM=
+		TUf0dsyMdQ7jr0dpCjg/FxJeH+8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -88,66 +88,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0Jd4BLTrf2dNQHLwFJxo172vRYg=
+			D4D/N9aMspZuR2vGI5Qwpaz/e58=
 			</data>
 			<key>hash2</key>
 			<data>
-			2XZO+u5ZJo5rVZh9tvLGs/xrbWXgWBzNyim7jEO/QrA=
+			DXkpK7dAz+fPZ3MJU7bojET33xO6voosV8ukJnspw68=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XExvnydUVrmTa30FspEC5tle3uM=
+			tiG5RNMLwPtpSchjEokF2dmz+HA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ecp+21wI0s5XY+GV+pQpDVjN5uP7AQZAd3ljmvKbX08=
+			zGY8aRmyvOSd35qr4JWgX2fQaNLHbcRYSEBeixcwyK0=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K4rwF1F1UbRq3L9oRCCV31qZlcM=
+			TUf0dsyMdQ7jr0dpCjg/FxJeH+8=
 			</data>
 			<key>hash2</key>
 			<data>
-			E8rwHA7m9XFplzoaj8Qajklax9wIAdtm2lZezp+rnog=
+			6t/CXkl/xqyC6Znmrtx40XztW4JCKKw/cEFpIdtnrhM=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0Jd4BLTrf2dNQHLwFJxo172vRYg=
+			D4D/N9aMspZuR2vGI5Qwpaz/e58=
 			</data>
 			<key>hash2</key>
 			<data>
-			2XZO+u5ZJo5rVZh9tvLGs/xrbWXgWBzNyim7jEO/QrA=
+			DXkpK7dAz+fPZ3MJU7bojET33xO6voosV8ukJnspw68=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XExvnydUVrmTa30FspEC5tle3uM=
+			tiG5RNMLwPtpSchjEokF2dmz+HA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ecp+21wI0s5XY+GV+pQpDVjN5uP7AQZAd3ljmvKbX08=
+			zGY8aRmyvOSd35qr4JWgX2fQaNLHbcRYSEBeixcwyK0=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K4rwF1F1UbRq3L9oRCCV31qZlcM=
+			TUf0dsyMdQ7jr0dpCjg/FxJeH+8=
 			</data>
 			<key>hash2</key>
 			<data>
-			E8rwHA7m9XFplzoaj8Qajklax9wIAdtm2lZezp+rnog=
+			6t/CXkl/xqyC6Znmrtx40XztW4JCKKw/cEFpIdtnrhM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
