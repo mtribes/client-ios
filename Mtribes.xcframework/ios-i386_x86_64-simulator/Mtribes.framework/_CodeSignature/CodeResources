@@ -18,55 +18,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3hMEBmLi358Y0XjnACZephs1tXg=
+		EtuIY/vi+LPeMngvEKMiSgbSeOc=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		6RotECoWeS1nvcnN3kZ9WL/qxk4=
+		IODch1w4/ilugcyYGZcaN+YSQ0c=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1QcRbbJ8MJ33gkeXLF3YOzSxdyw=
+		T4SWENbZ0FMT0FO4l2zWF0eW4HM=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		j+PioZNLV/G7crIcYIHC6G77Hmc=
+		LqpKlxkASkNsGFSWKuR4B+RADEY=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftdoc</key>
 		<data>
-		6RotECoWeS1nvcnN3kZ9WL/qxk4=
+		IODch1w4/ilugcyYGZcaN+YSQ0c=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftinterface</key>
 		<data>
-		1QcRbbJ8MJ33gkeXLF3YOzSxdyw=
+		T4SWENbZ0FMT0FO4l2zWF0eW4HM=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftmodule</key>
 		<data>
-		j+PioZNLV/G7crIcYIHC6G77Hmc=
+		LqpKlxkASkNsGFSWKuR4B+RADEY=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Cb85222hG1qRYrIuFG+MNjet+uo=
+		yvi2UEXwXstLOBqlwCtEHIa09XQ=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		u/3lnFS4DYXmjBrcAMa4howA+V0=
+		kfUy6YRAQ8/jGwOfmiJkFfwqBM8=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jXEe37RwwnDCpFB9txg/KO4yqGo=
+		BprAtoy3exBeDSb1/bp/E4jhhoM=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Cb85222hG1qRYrIuFG+MNjet+uo=
+		yvi2UEXwXstLOBqlwCtEHIa09XQ=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		u/3lnFS4DYXmjBrcAMa4howA+V0=
+		kfUy6YRAQ8/jGwOfmiJkFfwqBM8=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		jXEe37RwwnDCpFB9txg/KO4yqGo=
+		BprAtoy3exBeDSb1/bp/E4jhhoM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,132 +112,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6RotECoWeS1nvcnN3kZ9WL/qxk4=
+			IODch1w4/ilugcyYGZcaN+YSQ0c=
 			</data>
 			<key>hash2</key>
 			<data>
-			lf8WHpNwwCKI5cREHTkrb/x8buEMJLQfANICnjhbY48=
+			e85eougIgO+mTtrbHv8DJGLYEx9h0JLh9PFnxWa5bfY=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1QcRbbJ8MJ33gkeXLF3YOzSxdyw=
+			T4SWENbZ0FMT0FO4l2zWF0eW4HM=
 			</data>
 			<key>hash2</key>
 			<data>
-			nxwaET/bKos6GtzKh0FoQDxtYPQ73aGtFTTJkZFoiu4=
+			QSMqPRBgWfnZUsOTCIth2kimNtdReajLFZXV1xoMXq0=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j+PioZNLV/G7crIcYIHC6G77Hmc=
+			LqpKlxkASkNsGFSWKuR4B+RADEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			VNwKDTS+Hb4nIQf0UuzIH5QPKNbFoPYF2igNkXzoXo0=
+			AAeVczvmigeyP8XH38TPuOJPC56dWmXhZ77dv2Z06gc=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6RotECoWeS1nvcnN3kZ9WL/qxk4=
+			IODch1w4/ilugcyYGZcaN+YSQ0c=
 			</data>
 			<key>hash2</key>
 			<data>
-			lf8WHpNwwCKI5cREHTkrb/x8buEMJLQfANICnjhbY48=
+			e85eougIgO+mTtrbHv8DJGLYEx9h0JLh9PFnxWa5bfY=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1QcRbbJ8MJ33gkeXLF3YOzSxdyw=
+			T4SWENbZ0FMT0FO4l2zWF0eW4HM=
 			</data>
 			<key>hash2</key>
 			<data>
-			nxwaET/bKos6GtzKh0FoQDxtYPQ73aGtFTTJkZFoiu4=
+			QSMqPRBgWfnZUsOTCIth2kimNtdReajLFZXV1xoMXq0=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j+PioZNLV/G7crIcYIHC6G77Hmc=
+			LqpKlxkASkNsGFSWKuR4B+RADEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			VNwKDTS+Hb4nIQf0UuzIH5QPKNbFoPYF2igNkXzoXo0=
+			AAeVczvmigeyP8XH38TPuOJPC56dWmXhZ77dv2Z06gc=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Cb85222hG1qRYrIuFG+MNjet+uo=
+			yvi2UEXwXstLOBqlwCtEHIa09XQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fg5Zfj6GvarEVT9HansbSp7U7zSZke+Q4JBO0MI2Zzo=
+			M9POAjOP0A5zZBrnxQbRfxhKRXwqpttVUVnwUfbqsBo=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u/3lnFS4DYXmjBrcAMa4howA+V0=
+			kfUy6YRAQ8/jGwOfmiJkFfwqBM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			EC+37G6NKYy66T3ZevkmKvAkOCd27j5E8cyEEkHNYJk=
+			/1C0kuaWXWVtbOlrGfbigV/kulAk5QH7z5fFqTu+BNY=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jXEe37RwwnDCpFB9txg/KO4yqGo=
+			BprAtoy3exBeDSb1/bp/E4jhhoM=
 			</data>
 			<key>hash2</key>
 			<data>
-			5UOKttzp1izNksEAeRbf14ZwqasZ/6RJLnRYsZzrNN0=
+			ldDRpXeFewk17hsY21a0oqL9goxDbFz8WIicdXDN6J8=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Cb85222hG1qRYrIuFG+MNjet+uo=
+			yvi2UEXwXstLOBqlwCtEHIa09XQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fg5Zfj6GvarEVT9HansbSp7U7zSZke+Q4JBO0MI2Zzo=
+			M9POAjOP0A5zZBrnxQbRfxhKRXwqpttVUVnwUfbqsBo=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u/3lnFS4DYXmjBrcAMa4howA+V0=
+			kfUy6YRAQ8/jGwOfmiJkFfwqBM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			EC+37G6NKYy66T3ZevkmKvAkOCd27j5E8cyEEkHNYJk=
+			/1C0kuaWXWVtbOlrGfbigV/kulAk5QH7z5fFqTu+BNY=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jXEe37RwwnDCpFB9txg/KO4yqGo=
+			BprAtoy3exBeDSb1/bp/E4jhhoM=
 			</data>
 			<key>hash2</key>
 			<data>
-			5UOKttzp1izNksEAeRbf14ZwqasZ/6RJLnRYsZzrNN0=
+			ldDRpXeFewk17hsY21a0oqL9goxDbFz8WIicdXDN6J8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

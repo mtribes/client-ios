@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 // swift-module-flags: -target arm64_32-apple-watchos3.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Mtribes
+import Combine
 import CommonCrypto
 import CoreFoundation
 import Foundation
@@ -8,6 +9,26 @@ import Security
 import Swift
 import WatchKit
 import zlib
+@available(iOS 13.0, tvOS 13.0, OSX 10.15, watchOS 6.0, *)
+public struct MTSessionPublisher : Combine.Publisher {
+  public typealias Output = Mtribes.MTSessionStatus
+  public typealias Failure = Swift.Never
+  public func receive<S>(subscriber: S) where S : Combine.Subscriber, S.Failure == Mtribes.MTSessionPublisher.Failure, S.Input == Mtribes.MTSessionPublisher.Output
+}
+@available(iOS 13.0, tvOS 13.0, OSX 10.15, watchOS 6.0, *)
+extension MTSession {
+  public func start(options: Mtribes.StartOptions? = nil) -> Mtribes.MTSessionPublisher
+  public func update(fields: Mtribes.UserFields = [:]) -> Mtribes.MTSessionPublisher
+  public func changed() -> Combine.AnyPublisher<Mtribes.MTSessionEvent, Swift.Never>
+}
+@available(iOS 13.0, tvOS 13.0, OSX 10.15, watchOS 6.0, *)
+extension MTExperience {
+  public func changed() -> Combine.AnyPublisher<Mtribes.MTChangeEvent, Swift.Never>
+}
+@available(iOS 13.0, tvOS 13.0, OSX 10.15, watchOS 6.0, *)
+extension MTSection {
+  public func changed() -> Combine.AnyPublisher<Mtribes.MTChangeEvent, Swift.Never>
+}
 public class AnalyticsEventDetails : Swift.Encodable {
   public var label: Swift.String?
   public var value: Swift.Int?
@@ -120,7 +141,7 @@ open class MTExperience {
   required public init(id: Swift.String, parentId: Swift.String, broker: Mtribes.MTBroker)
   public func register(template: Mtribes.MTTemplate)
   public func track(type: Swift.String, details: Mtribes.AnalyticsEventDetails? = nil)
-  public func onChange(owner: Mtribes.EventOwner, _ handler: @escaping Mtribes.ChangedHandler)
+  public func changedWithCallback(owner: Mtribes.EventOwner, _ handler: @escaping Mtribes.ChangedHandler)
   @objc deinit
 }
 public protocol MTExperienceData : Swift.Decodable, Swift.Encodable {
@@ -147,7 +168,7 @@ open class MTSection : Swift.Sequence {
   public var children: [Mtribes.MTExperience] {
     get
   }
-  public func onChange(owner: Mtribes.EventOwner, _ handler: @escaping Mtribes.ChangedHandler)
+  public func changedWithCallback(owner: Mtribes.EventOwner, _ handler: @escaping Mtribes.ChangedHandler)
   @objc deinit
   public typealias Element = Swift.IndexingIterator<Swift.Array<Mtribes.MTExperience>>.Element
   public typealias Iterator = Swift.Array<Mtribes.MTExperience>.Iterator
@@ -168,16 +189,12 @@ public typealias SessionHandler = (Mtribes.MTSessionEvent) -> Swift.Void
   public var ready: Swift.Bool {
     get
   }
-  public func start(options: Mtribes.StartOptions? = nil, completion: Mtribes.SessionIdentifyHandler? = nil)
-  @available(*, deprecated, message: "use `session.start(options:)` instead.")
-  public func identify(userId: Swift.String, fields: Mtribes.UserFields = [:], options: Mtribes.IdentifyOptions? = nil, completion: Mtribes.SessionIdentifyHandler? = nil)
-  @available(*, deprecated, message: "use `session.start(options:)` instead.")
-  public func anonymize(fields: Mtribes.UserFields = [:], completion: Mtribes.SessionIdentifyHandler? = nil)
-  public func update(fields: Mtribes.UserFields = [:], completion: Mtribes.SessionIdentifyHandler? = nil)
-  public func observeExpChange(_ owner: Mtribes.EventOwner, expId: Swift.String, _ handler: @escaping Mtribes.ChangedHandler)
-  public func observeSession(owner: Mtribes.EventOwner, _ handler: @escaping Mtribes.SessionHandler)
+  public func startWithCallback(options: Mtribes.StartOptions? = nil, completion: Mtribes.SessionIdentifyHandler? = nil)
+  public func updateWithCallback(fields: Mtribes.UserFields = [:], completion: Mtribes.SessionIdentifyHandler? = nil)
+  public func changedWithCallback(owner: Mtribes.EventOwner, _ handler: @escaping Mtribes.SessionHandler)
   public func stopObserveSession()
-  public func stopObserveExp(_ expId: Swift.String, owner: Mtribes.EventOwner)
+  public func applicationDidEnterBackground()
+  public func applicationWillEnterForeground()
   @objc deinit
 }
 public struct SectionEntry : Swift.Codable, Swift.Equatable {
