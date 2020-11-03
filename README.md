@@ -15,10 +15,10 @@ audience segmentation, user targeting and real-time insights together.
 
 ## Installation
 
-First you'll need to install the CLI and integrate your mtribes Space by
+If you haven't already, first install the CLI and integrate your mtribes Space by
 following our
 [Getting started](https://developers.mtribes.com/docs/sdk/getting-started).
 
-Once a Space is integrated, head over to our
+Once your Space is integrated, head on over to our
 [iOS SDK integration guide](https://developers.mtribes.com/docs/sdk/client/ios#code-integration)
-to install the SDK using preferred method.
+to install the SDK using your preferred method.
