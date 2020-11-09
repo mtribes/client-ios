@@ -4,6 +4,7 @@
 import Combine
 import CommonCrypto
 import CoreFoundation
+import CoreGraphics
 import Foundation
 import Security
 import Swift
@@ -241,6 +242,16 @@ extension Int : Mtribes.Field {
 extension String : Mtribes.Field {
 }
 extension Bool : Mtribes.Field {
+}
+extension Date : Mtribes.Field {
+}
+extension Double : Mtribes.Field {
+}
+extension Decimal : Mtribes.Field {
+}
+extension Float : Mtribes.Field {
+}
+extension CGFloat : Mtribes.Field {
 }
 extension Array : Mtribes.Field where Element : Mtribes.Field {
 }

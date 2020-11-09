@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/Mtribes.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		lq7OETuLvuYyXrHODlRBb+npDwo=
+		9jRCBx7yOCiWN6gmXuNPMPWkOH8=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kBIey5JjML2jygOhPXEFnHc/piU=
+		BeweOaQ5BTt7we/e2JzcwRxEodU=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/Mtribes.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		lq7OETuLvuYyXrHODlRBb+npDwo=
+		9jRCBx7yOCiWN6gmXuNPMPWkOH8=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		kBIey5JjML2jygOhPXEFnHc/piU=
+		BeweOaQ5BTt7we/e2JzcwRxEodU=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		WTmVpCo8ebVrb7ATgL/HOnaoVCQ=
+		Iu2P4aTWhbVSZtChckG3JrhTqPU=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dl7vafB/Cz/HZl6aUl07CTy9zIk=
+		DKkQQFH+T7RyJji1PJW/7mjdghM=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftinterface</key>
 		<data>
-		WTmVpCo8ebVrb7ATgL/HOnaoVCQ=
+		Iu2P4aTWhbVSZtChckG3JrhTqPU=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftmodule</key>
 		<data>
-		dl7vafB/Cz/HZl6aUl07CTy9zIk=
+		DKkQQFH+T7RyJji1PJW/7mjdghM=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7J4mZXRBrA3eX7DqT8OfM+mXaLM=
+		ld4Ca460V52IoIUb2N1iaVaB0PE=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sZoWiWYGWOi8AAgWXaIg5SyHcZA=
+		TAFFjOI1FVphZ0anxg5d59XPp5k=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		7J4mZXRBrA3eX7DqT8OfM+mXaLM=
+		ld4Ca460V52IoIUb2N1iaVaB0PE=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		sZoWiWYGWOi8AAgWXaIg5SyHcZA=
+		TAFFjOI1FVphZ0anxg5d59XPp5k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -147,22 +147,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lq7OETuLvuYyXrHODlRBb+npDwo=
+			9jRCBx7yOCiWN6gmXuNPMPWkOH8=
 			</data>
 			<key>hash2</key>
 			<data>
-			RdDosqiKaeOJi7ho6ntI/+QHzE9C6xB2DqbkuPk8cSM=
+			J65Jf+Bacc76LOyVmrzDuBfENSNoQSQdXAnIf9IKnvw=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kBIey5JjML2jygOhPXEFnHc/piU=
+			BeweOaQ5BTt7we/e2JzcwRxEodU=
 			</data>
 			<key>hash2</key>
 			<data>
-			FLD/QWFP+N1kqT6fJSagKAmSa9oZCc+dsTopCxCpLIc=
+			yejrh9Lg99XaEAwa/5OU5hL8hPSz64ImRtcg1whEFzw=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/arm64.swiftdoc</key>
@@ -180,22 +180,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lq7OETuLvuYyXrHODlRBb+npDwo=
+			9jRCBx7yOCiWN6gmXuNPMPWkOH8=
 			</data>
 			<key>hash2</key>
 			<data>
-			RdDosqiKaeOJi7ho6ntI/+QHzE9C6xB2DqbkuPk8cSM=
+			J65Jf+Bacc76LOyVmrzDuBfENSNoQSQdXAnIf9IKnvw=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kBIey5JjML2jygOhPXEFnHc/piU=
+			BeweOaQ5BTt7we/e2JzcwRxEodU=
 			</data>
 			<key>hash2</key>
 			<data>
-			FLD/QWFP+N1kqT6fJSagKAmSa9oZCc+dsTopCxCpLIc=
+			yejrh9Lg99XaEAwa/5OU5hL8hPSz64ImRtcg1whEFzw=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -213,22 +213,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WTmVpCo8ebVrb7ATgL/HOnaoVCQ=
+			Iu2P4aTWhbVSZtChckG3JrhTqPU=
 			</data>
 			<key>hash2</key>
 			<data>
-			oPsIvOQQESd68hwEQPmqqFOY/IK6Pv3Ezib2RkIvcdY=
+			MCpKLIS1tnWl+rQEfI4z0XniYOmy0Xc4XSqwzGFy7UM=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dl7vafB/Cz/HZl6aUl07CTy9zIk=
+			DKkQQFH+T7RyJji1PJW/7mjdghM=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Hq97gEDzlft1Q3FdVHE7D7PFFG06dYTvDTZl2YeeD4=
+			ooAOURK7QneAbtsb84uZe9zSyOrxMfQ7jOwwhbwqCZQ=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftdoc</key>
@@ -246,22 +246,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WTmVpCo8ebVrb7ATgL/HOnaoVCQ=
+			Iu2P4aTWhbVSZtChckG3JrhTqPU=
 			</data>
 			<key>hash2</key>
 			<data>
-			oPsIvOQQESd68hwEQPmqqFOY/IK6Pv3Ezib2RkIvcdY=
+			MCpKLIS1tnWl+rQEfI4z0XniYOmy0Xc4XSqwzGFy7UM=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dl7vafB/Cz/HZl6aUl07CTy9zIk=
+			DKkQQFH+T7RyJji1PJW/7mjdghM=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Hq97gEDzlft1Q3FdVHE7D7PFFG06dYTvDTZl2YeeD4=
+			ooAOURK7QneAbtsb84uZe9zSyOrxMfQ7jOwwhbwqCZQ=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -279,22 +279,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7J4mZXRBrA3eX7DqT8OfM+mXaLM=
+			ld4Ca460V52IoIUb2N1iaVaB0PE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ukpUwL7N7KHe/geLxiiBdklb0Flzq88dS4HiAkFy/f8=
+			qWJwcAbVtZHW7icR+WciLsiHCK9eI0DXPsnez45wNVg=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sZoWiWYGWOi8AAgWXaIg5SyHcZA=
+			TAFFjOI1FVphZ0anxg5d59XPp5k=
 			</data>
 			<key>hash2</key>
 			<data>
-			iNbVoIgBP4EjmRuRbvt82m6VBEF4rOs+XT4Bm7QFWGk=
+			f8WBv7D2+XmgznbOZ2LmE8VE9ATzVjIFEKGHA2DRK04=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftdoc</key>
@@ -312,22 +312,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7J4mZXRBrA3eX7DqT8OfM+mXaLM=
+			ld4Ca460V52IoIUb2N1iaVaB0PE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ukpUwL7N7KHe/geLxiiBdklb0Flzq88dS4HiAkFy/f8=
+			qWJwcAbVtZHW7icR+WciLsiHCK9eI0DXPsnez45wNVg=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sZoWiWYGWOi8AAgWXaIg5SyHcZA=
+			TAFFjOI1FVphZ0anxg5d59XPp5k=
 			</data>
 			<key>hash2</key>
 			<data>
-			iNbVoIgBP4EjmRuRbvt82m6VBEF4rOs+XT4Bm7QFWGk=
+			f8WBv7D2+XmgznbOZ2LmE8VE9ATzVjIFEKGHA2DRK04=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
