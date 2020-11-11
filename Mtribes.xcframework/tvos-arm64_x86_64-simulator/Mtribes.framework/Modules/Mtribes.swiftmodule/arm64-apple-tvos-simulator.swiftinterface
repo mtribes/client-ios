@@ -101,8 +101,8 @@ open class MTCollection {
 }
 public struct MTColor : Swift.Codable {
   public let value: Swift.String?
-  public let opacity: Swift.Double?
-  public init(value: Swift.String?, opacity: Swift.Double?)
+  public let opacity: CoreGraphics.CGFloat
+  public init(value: Swift.String? = nil, opacity: CoreGraphics.CGFloat = 1)
   public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
 }
@@ -138,6 +138,9 @@ open class MTExperience {
   final public let parentId: Swift.String
   final public let broker: Mtribes.MTBroker
   public var enabled: Swift.Bool {
+    get
+  }
+  public var scenarioId: Swift.String? {
     get
   }
   required public init(id: Swift.String, parentId: Swift.String, broker: Mtribes.MTBroker)
@@ -178,7 +181,7 @@ open class MTSection : Swift.Sequence {
 extension MTSection {
   __consuming public func makeIterator() -> Swift.Array<Mtribes.MTExperience>.Iterator
 }
-public typealias SessionIdentifyHandler = (Swift.Result<Mtribes.MTSessionStatus, Swift.Error>) -> Swift.Void
+public typealias SessionIdentifyHandler = (Mtribes.MTSessionStatus) -> Swift.Void
 public typealias ChangedHandler = (Mtribes.MTChangeEvent) -> Swift.Void
 public typealias SessionHandler = (Mtribes.MTSessionEvent) -> Swift.Void
 @_hasMissingDesignatedInitializers public class MTSession {
