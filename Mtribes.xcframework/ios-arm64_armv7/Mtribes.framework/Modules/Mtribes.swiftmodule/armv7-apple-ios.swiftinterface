@@ -22,6 +22,7 @@ public class MTBroker {
   public init(session: Mtribes.MTSession)
   public func register(_ node: Mtribes.MTNode)
   public func contains(_ nodeId: Swift.String) -> Swift.Bool
+  public func getData(id: Swift.String) -> Swift.String
   public func getData<T>(id: Swift.String, ctx: Mtribes.MTSession? = nil) -> T where T : Mtribes.MTExperienceData
   public func getDefaultData<T>(id: Swift.String, ctx: Mtribes.MTSession? = nil) -> T where T : Mtribes.MTExperienceData
   public func children(id: Swift.String, ctx: Mtribes.MTSession? = nil) -> [Mtribes.MTExperience]
@@ -69,6 +70,10 @@ extension MTClient {
     set
   }
   public var userTracking: Swift.Bool {
+    get
+    set
+  }
+  public var includeTribes: Swift.Bool {
     get
     set
   }
@@ -122,15 +127,19 @@ open class MTExperience {
   public var scenarioId: Swift.String? {
     get
   }
+  public var dataJson: Swift.String {
+    get
+  }
   required public init(id: Swift.String, parentId: Swift.String, broker: Mtribes.MTBroker)
   public func register(template: Mtribes.MTTemplate)
   public func track(type: Swift.String, details: Mtribes.AnalyticsEventDetails? = nil)
   public func changedWithCallback(owner: Mtribes.EventOwner, _ handler: @escaping Mtribes.ChangedHandler)
   @objc deinit
 }
-public protocol MTExperienceData : Swift.Decodable, Swift.Encodable {
+public protocol MTExperienceData : Swift.Decodable {
   init()
 }
+public typealias OAIPair<T> = (key: Swift.String, value: T)
 public struct MTExperienceState : Swift.Codable, Swift.Equatable {
   public let on: Swift.Bool
   public let sid: Swift.String?
@@ -171,6 +180,9 @@ public typealias SessionHandler = (Mtribes.MTSessionEvent) -> Swift.Void
     get
   }
   public var ready: Swift.Bool {
+    get
+  }
+  public var tribeIds: [Swift.String] {
     get
   }
   public func startWithCallback(options: Mtribes.StartOptions? = nil, completion: Mtribes.SessionIdentifyHandler? = nil)
