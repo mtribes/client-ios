@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target arm64-apple-tvos10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Mtribes
 import Combine
 import CommonCrypto
@@ -10,33 +10,27 @@ import Security
 import Swift
 import SystemConfiguration
 import UIKit
+import _Concurrency
 import zlib
-@available(iOS 13.0, tvOS 13.0, OSX 10.15, watchOS 6.0, *)
+@available(iOS 13.0, tvOS 13.0, macOS 10.15, watchOS 6.0, *)
 public struct MTSessionPublisher : Combine.Publisher {
   public typealias Output = Mtribes.MTSessionStatus
   public typealias Failure = Swift.Never
   public func receive<S>(subscriber: S) where S : Combine.Subscriber, S.Failure == Mtribes.MTSessionPublisher.Failure, S.Input == Mtribes.MTSessionPublisher.Output
 }
-@available(iOS 13.0, tvOS 13.0, OSX 10.15, watchOS 6.0, *)
-extension MTSession {
+@available(iOS 13.0, tvOS 13.0, macOS 10.15, watchOS 6.0, *)
+extension Mtribes.MTSession {
   public func start(options: Mtribes.StartOptions? = nil) -> Mtribes.MTSessionPublisher
   public func update(fields: Mtribes.UserFields = [:]) -> Mtribes.MTSessionPublisher
   public func changed() -> Combine.AnyPublisher<Mtribes.MTSessionEvent, Swift.Never>
 }
-@available(iOS 13.0, tvOS 13.0, OSX 10.15, watchOS 6.0, *)
-extension MTExperience {
+@available(iOS 13.0, tvOS 13.0, macOS 10.15, watchOS 6.0, *)
+extension Mtribes.MTExperience {
   public func changed() -> Combine.AnyPublisher<Mtribes.MTChangeEvent, Swift.Never>
 }
-@available(iOS 13.0, tvOS 13.0, OSX 10.15, watchOS 6.0, *)
-extension MTSection {
+@available(iOS 13.0, tvOS 13.0, macOS 10.15, watchOS 6.0, *)
+extension Mtribes.MTSection {
   public func changed() -> Combine.AnyPublisher<Mtribes.MTChangeEvent, Swift.Never>
-}
-public class AnalyticsEventDetails : Swift.Encodable {
-  public var label: Swift.String?
-  public var value: Swift.Int?
-  public init(label: Swift.String? = nil, value: Swift.Int? = nil)
-  @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
 }
 public typealias EventOwner = Swift.AnyObject
 public class MTBroker {
@@ -48,7 +42,7 @@ public class MTBroker {
   public func getDefaultData<T>(id: Swift.String, ctx: Mtribes.MTSession? = nil) -> T where T : Mtribes.MTExperienceData
   public func children(id: Swift.String, ctx: Mtribes.MTSession? = nil) -> [Mtribes.MTExperience]
   public func observeChange(_ owner: Mtribes.EventOwner, expId: Swift.String, ctx: Mtribes.MTSession? = nil, _ handler: @escaping Mtribes.ChangedHandler)
-  public func track(_ id: Swift.String, type: Swift.String, details: Mtribes.AnalyticsEventDetails?, ctx: Mtribes.MTSession? = nil)
+  public func track(_ id: Swift.String, type: Swift.String, details: Mtribes.EventMetadata?, ctx: Mtribes.MTSession? = nil)
   public func state(forId id: Swift.String, ctx: Mtribes.MTSession? = nil) -> Mtribes.MTExperienceState
   public func defaultState(forId id: Swift.String, ctx: Mtribes.MTSession? = nil) -> Mtribes.MTExperienceState
   @objc deinit
@@ -73,7 +67,7 @@ public class MTClient {
   public init(apiKey: Swift.String, fallbacks: Mtribes.MTFallbacks)
   @objc deinit
 }
-extension MTClient {
+extension Mtribes.MTClient {
   public var serviceURL: Foundation.URL {
     get
     set
@@ -116,10 +110,10 @@ public enum MTChangeEventType {
   case remove
   case update
   public static func == (a: Mtribes.MTChangeEventType, b: Mtribes.MTChangeEventType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public class MTChangeEvent {
   final public let type: Mtribes.MTChangeEventType
@@ -136,7 +130,6 @@ public class MTSessionEvent : Mtribes.MTChangeEvent {
   final public let error: Swift.Error?
   public init(type: Mtribes.MTChangeEventType, source: Swift.String, children: [Mtribes.MTChangeEvent]? = nil, status: Mtribes.MTSessionStatus, statusChange: Swift.Bool = false, userChange: Swift.Bool = false, readyChange: Swift.Bool = false, error: Swift.Error? = nil)
   @objc deinit
-  override public init(type: Mtribes.MTChangeEventType, source: Swift.String, children: [Mtribes.MTChangeEvent]? = super)
 }
 open class MTExperience {
   final public let id: Swift.String
@@ -153,7 +146,7 @@ open class MTExperience {
   }
   required public init(id: Swift.String, parentId: Swift.String, broker: Mtribes.MTBroker)
   public func register(template: Mtribes.MTTemplate)
-  public func track(type: Swift.String, details: Mtribes.AnalyticsEventDetails? = nil)
+  public func track(type: Swift.String, details: Mtribes.EventMetadata? = nil)
   public func changedWithCallback(owner: Mtribes.EventOwner, _ handler: @escaping Mtribes.ChangedHandler)
   @objc deinit
 }
@@ -168,9 +161,9 @@ public struct MTExperienceState : Swift.Codable, Swift.Equatable {
   public let se: [Mtribes.SectionEntry]?
   public let v: Swift.Int
   public let pid: Swift.String?
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
   public static func == (a: Mtribes.MTExperienceState, b: Mtribes.MTExperienceState) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 open class MTSection : Swift.Sequence {
   final public let id: Swift.String
@@ -183,11 +176,11 @@ open class MTSection : Swift.Sequence {
     get
   }
   public func changedWithCallback(owner: Mtribes.EventOwner, _ handler: @escaping Mtribes.ChangedHandler)
-  @objc deinit
   public typealias Element = Swift.IndexingIterator<Swift.Array<Mtribes.MTExperience>>.Element
   public typealias Iterator = Swift.Array<Mtribes.MTExperience>.Iterator
+  @objc deinit
 }
-extension MTSection {
+extension Mtribes.MTSection {
   __consuming public func makeIterator() -> Swift.Array<Mtribes.MTExperience>.Iterator
 }
 public typealias SessionIdentifyHandler = (Mtribes.MTSessionStatus) -> Swift.Void
@@ -210,20 +203,24 @@ public typealias SessionHandler = (Mtribes.MTSessionEvent) -> Swift.Void
   public func updateWithCallback(fields: Mtribes.UserFields = [:], completion: Mtribes.SessionIdentifyHandler? = nil)
   public func changedWithCallback(owner: Mtribes.EventOwner, _ handler: @escaping Mtribes.SessionHandler)
   public func stopObserveSession()
+  public func track(type: Swift.String, details: Mtribes.EventMetadata?)
   @objc deinit
+}
+public struct EventMetadata {
+  public init(_ pair1: (Swift.String, Swift.String)? = nil, _ pair2: (Swift.String, Swift.String)? = nil, _ pair3: (Swift.String, Swift.String)? = nil)
 }
 public struct SectionEntry : Swift.Codable, Swift.Equatable {
   public let et: Swift.String
   public let id: Swift.String
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
   public static func == (a: Mtribes.SectionEntry, b: Mtribes.SectionEntry) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct ServiceError : Swift.Error, Swift.Codable {
   public let message: Swift.String
   public let code: Swift.Int?
-  public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public enum MTSessionStatus {
   case created
@@ -232,10 +229,10 @@ public enum MTSessionStatus {
   case elapsed
   case primed
   public static func == (a: Mtribes.MTSessionStatus, b: Mtribes.MTSessionStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public struct IdentifyOptions {
   public init(signed: Swift.String?)
@@ -252,23 +249,23 @@ public struct MTFallbacks {
 public typealias UserFields = [Swift.String : Mtribes.Field]
 public protocol Field : Swift.Decodable, Swift.Encodable {
 }
-extension Int : Mtribes.Field {
+extension Swift.Int : Mtribes.Field {
 }
-extension String : Mtribes.Field {
+extension Swift.String : Mtribes.Field {
 }
-extension Bool : Mtribes.Field {
+extension Swift.Bool : Mtribes.Field {
 }
-extension Date : Mtribes.Field {
+extension Foundation.Date : Mtribes.Field {
 }
-extension Double : Mtribes.Field {
+extension Swift.Double : Mtribes.Field {
 }
-extension Decimal : Mtribes.Field {
+extension Foundation.Decimal : Mtribes.Field {
 }
-extension Float : Mtribes.Field {
+extension Swift.Float : Mtribes.Field {
 }
-extension CGFloat : Mtribes.Field {
+extension CoreGraphics.CGFloat : Mtribes.Field {
 }
-extension Array : Mtribes.Field where Element : Mtribes.Field {
+extension Swift.Array : Mtribes.Field where Element : Mtribes.Field {
 }
 extension Mtribes.MTChangeEventType : Swift.Equatable {}
 extension Mtribes.MTChangeEventType : Swift.Hashable {}
