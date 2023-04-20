@@ -14,83 +14,71 @@
 		</data>
 		<key>Headers/Mtribes-Swift.h</key>
 		<data>
-		Y8HREkA0Cqndiz0cZsI53i3bRuI=
+		0544e53wGV86lXxB7JSoEvTHj+Q=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1KGupIJ0nzIZcNHUL6PEHwquCR4=
+		qyk+RCYVMX7rl4eqd6R2PMp2184=
+		</data>
+		<key>Modules/Mtribes.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
+		<data>
+		iFn6u4aAZ/Lj6mDHUBVCJzk9kk0=
+		</data>
+		<key>Modules/Mtribes.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
+		<data>
+		DRfwuO31F4cCmARHMgF4c0NauoA=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		87faIGgnKtuiIStMDaL4B6YaROA=
+		51+THjrN19ca4piahSpaj58XJWI=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		wtFQMX45qZxi76SEkGWznCWx9gY=
+		DRfwuO31F4cCmARHMgF4c0NauoA=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		fevDP+RuHpW9sMYQMiSe9Z3qHeg=
+		hzgeZdSYv/DugPq2kqTJyxLL2hQ=
 		</data>
-		<key>Modules/Mtribes.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.abi.json</key>
 		<data>
-		87faIGgnKtuiIStMDaL4B6YaROA=
+		E+aZg98h3AI0N5erecBknq8JLdQ=
 		</data>
-		<key>Modules/Mtribes.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		wtFQMX45qZxi76SEkGWznCWx9gY=
-		</data>
-		<key>Modules/Mtribes.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		fevDP+RuHpW9sMYQMiSe9Z3qHeg=
+		cRmjrsPeRHOH89mbPD11VpikCVY=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		aFxbgS8eJjZ6pm4Vnpy3JEGJ/d4=
+		8XTTXWVAZ/EL8oKvZLE03rSO7n8=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		LBbsKs4ESNlSUf7Ce7P2OsbaVX0=
+		cRmjrsPeRHOH89mbPD11VpikCVY=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		P9+aM740MfFYsC61A3HkPOKJADc=
+		3plnHlh4EYrErMSF8OM1fXjplkQ=
 		</data>
-		<key>Modules/Mtribes.swiftmodule/i386.swiftdoc</key>
+		<key>Modules/Mtribes.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		aFxbgS8eJjZ6pm4Vnpy3JEGJ/d4=
+		iFn6u4aAZ/Lj6mDHUBVCJzk9kk0=
 		</data>
-		<key>Modules/Mtribes.swiftmodule/i386.swiftinterface</key>
+		<key>Modules/Mtribes.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		LBbsKs4ESNlSUf7Ce7P2OsbaVX0=
-		</data>
-		<key>Modules/Mtribes.swiftmodule/i386.swiftmodule</key>
-		<data>
-		P9+aM740MfFYsC61A3HkPOKJADc=
+		WqIGSlN/Z+zZaiEXbTkPepzZMnI=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		q/n7uoPi8b/UdOPj2KeDMc3WJJk=
+		GqThO7XCKtVlbhsPHJWiJecLDiM=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		QQaRh1SXbD5m4LfnWM7+9AE7GX0=
+		WqIGSlN/Z+zZaiEXbTkPepzZMnI=
 		</data>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		IQB1I5xwmDrt9ByjLtKfsO+h5GE=
-		</data>
-		<key>Modules/Mtribes.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		q/n7uoPi8b/UdOPj2KeDMc3WJJk=
-		</data>
-		<key>Modules/Mtribes.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		QQaRh1SXbD5m4LfnWM7+9AE7GX0=
-		</data>
-		<key>Modules/Mtribes.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		IQB1I5xwmDrt9ByjLtKfsO+h5GE=
+		T1/myTokmcneDlgZHy7LQAkdtl0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -125,209 +113,176 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y8HREkA0Cqndiz0cZsI53i3bRuI=
+			0544e53wGV86lXxB7JSoEvTHj+Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			M+WbxIhFKiqtyIPVTuP4N4TMmS9fR/wPzy634USgXfs=
+			qV5sL5nKM1AR4FvS+Y/sDx/lMJUa18MakC+5tdzOUvc=
+			</data>
+		</dict>
+		<key>Modules/Mtribes.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iFn6u4aAZ/Lj6mDHUBVCJzk9kk0=
+			</data>
+			<key>hash2</key>
+			<data>
+			lnE2H5GN3f3DDuGQ28IQonhgP37J4pNbwPggEKR5sM4=
+			</data>
+		</dict>
+		<key>Modules/Mtribes.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DRfwuO31F4cCmARHMgF4c0NauoA=
+			</data>
+			<key>hash2</key>
+			<data>
+			gXvpzmCeu150hiw9dnkTci4PXBmMIrPTHEdmwRPwDBQ=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			87faIGgnKtuiIStMDaL4B6YaROA=
+			51+THjrN19ca4piahSpaj58XJWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			WBGKrwaFUuj27w+oYqxj5lToPP0+TuOrx6NBrFYW/y0=
+			kyqswkr7CzTWZeyxaTC1m367CFC5ZpiKUAy1/eK7Abg=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wtFQMX45qZxi76SEkGWznCWx9gY=
+			DRfwuO31F4cCmARHMgF4c0NauoA=
 			</data>
 			<key>hash2</key>
 			<data>
-			QQYoSqx+pESe1GmjMT1IGovKK+ZOEzE1gch5gonq3Uw=
+			gXvpzmCeu150hiw9dnkTci4PXBmMIrPTHEdmwRPwDBQ=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fevDP+RuHpW9sMYQMiSe9Z3qHeg=
+			hzgeZdSYv/DugPq2kqTJyxLL2hQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dl2hK5gj9VK3lkQsdHle7f64GGzXKRIdXqdd6znO/nk=
+			d4/H9jg1WtLZQeXe/9n7P2hUDgIbtKOhrCY6p+5GNH8=
 			</data>
 		</dict>
-		<key>Modules/Mtribes.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			87faIGgnKtuiIStMDaL4B6YaROA=
+			E+aZg98h3AI0N5erecBknq8JLdQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			WBGKrwaFUuj27w+oYqxj5lToPP0+TuOrx6NBrFYW/y0=
+			HRoaBGq8zxddijHo2KRovSM14dCBiDIgiVD3XMV0wWA=
 			</data>
 		</dict>
-		<key>Modules/Mtribes.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wtFQMX45qZxi76SEkGWznCWx9gY=
+			cRmjrsPeRHOH89mbPD11VpikCVY=
 			</data>
 			<key>hash2</key>
 			<data>
-			QQYoSqx+pESe1GmjMT1IGovKK+ZOEzE1gch5gonq3Uw=
-			</data>
-		</dict>
-		<key>Modules/Mtribes.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fevDP+RuHpW9sMYQMiSe9Z3qHeg=
-			</data>
-			<key>hash2</key>
-			<data>
-			Dl2hK5gj9VK3lkQsdHle7f64GGzXKRIdXqdd6znO/nk=
+			44sVLDcXHyI5F31rrIbXpvXkmiLYrSpGvc0SSkXBnRY=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aFxbgS8eJjZ6pm4Vnpy3JEGJ/d4=
+			8XTTXWVAZ/EL8oKvZLE03rSO7n8=
 			</data>
 			<key>hash2</key>
 			<data>
-			9/0Q6F65UJdJRLconQfPmq51bB/+FQwJ5UJO0xMAun0=
+			jKl5Ddh1f7MImuJfG7UPeoZ2ovPgZxe3eTB8EBP0ifA=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LBbsKs4ESNlSUf7Ce7P2OsbaVX0=
+			cRmjrsPeRHOH89mbPD11VpikCVY=
 			</data>
 			<key>hash2</key>
 			<data>
-			e6tDA6ZP5By4dh0XcViaT3SHrrS7ijJ5zVHyD9cdTSs=
+			44sVLDcXHyI5F31rrIbXpvXkmiLYrSpGvc0SSkXBnRY=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/i386-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			P9+aM740MfFYsC61A3HkPOKJADc=
+			3plnHlh4EYrErMSF8OM1fXjplkQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			wkDK3CQojQb5NWIVntoX3ZVXAfV3u86FRw61i+do7eM=
+			Oud8tLNYOvLD4wXNd4AhYkj9VrY/81Gi4tuWRgCibuA=
 			</data>
 		</dict>
-		<key>Modules/Mtribes.swiftmodule/i386.swiftdoc</key>
+		<key>Modules/Mtribes.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aFxbgS8eJjZ6pm4Vnpy3JEGJ/d4=
+			iFn6u4aAZ/Lj6mDHUBVCJzk9kk0=
 			</data>
 			<key>hash2</key>
 			<data>
-			9/0Q6F65UJdJRLconQfPmq51bB/+FQwJ5UJO0xMAun0=
+			lnE2H5GN3f3DDuGQ28IQonhgP37J4pNbwPggEKR5sM4=
 			</data>
 		</dict>
-		<key>Modules/Mtribes.swiftmodule/i386.swiftinterface</key>
+		<key>Modules/Mtribes.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LBbsKs4ESNlSUf7Ce7P2OsbaVX0=
+			WqIGSlN/Z+zZaiEXbTkPepzZMnI=
 			</data>
 			<key>hash2</key>
 			<data>
-			e6tDA6ZP5By4dh0XcViaT3SHrrS7ijJ5zVHyD9cdTSs=
-			</data>
-		</dict>
-		<key>Modules/Mtribes.swiftmodule/i386.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			P9+aM740MfFYsC61A3HkPOKJADc=
-			</data>
-			<key>hash2</key>
-			<data>
-			wkDK3CQojQb5NWIVntoX3ZVXAfV3u86FRw61i+do7eM=
+			nWPKGyOs6MLLm79TrP3BpgIQEkDgT75wYoDN/VKGaWA=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q/n7uoPi8b/UdOPj2KeDMc3WJJk=
+			GqThO7XCKtVlbhsPHJWiJecLDiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			6ZKKNlW0sfF4T68UPb636mTJxREk9MjBG1/g3EG20qo=
+			TM9/yvZwZYgMgdf8HF4S+c/fQfAl/eGbrEjN1Bat250=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QQaRh1SXbD5m4LfnWM7+9AE7GX0=
+			WqIGSlN/Z+zZaiEXbTkPepzZMnI=
 			</data>
 			<key>hash2</key>
 			<data>
-			4PRVNJE+GFEFJ7hJ0MfJflTnSueI7Yf1psEoM4Yc2hc=
+			nWPKGyOs6MLLm79TrP3BpgIQEkDgT75wYoDN/VKGaWA=
 			</data>
 		</dict>
 		<key>Modules/Mtribes.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IQB1I5xwmDrt9ByjLtKfsO+h5GE=
+			T1/myTokmcneDlgZHy7LQAkdtl0=
 			</data>
 			<key>hash2</key>
 			<data>
-			rk3Wr5m+OStzpZ9gViIvZUHs35lhP4JCr2wMTYEEG84=
-			</data>
-		</dict>
-		<key>Modules/Mtribes.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			q/n7uoPi8b/UdOPj2KeDMc3WJJk=
-			</data>
-			<key>hash2</key>
-			<data>
-			6ZKKNlW0sfF4T68UPb636mTJxREk9MjBG1/g3EG20qo=
-			</data>
-		</dict>
-		<key>Modules/Mtribes.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QQaRh1SXbD5m4LfnWM7+9AE7GX0=
-			</data>
-			<key>hash2</key>
-			<data>
-			4PRVNJE+GFEFJ7hJ0MfJflTnSueI7Yf1psEoM4Yc2hc=
-			</data>
-		</dict>
-		<key>Modules/Mtribes.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IQB1I5xwmDrt9ByjLtKfsO+h5GE=
-			</data>
-			<key>hash2</key>
-			<data>
-			rk3Wr5m+OStzpZ9gViIvZUHs35lhP4JCr2wMTYEEG84=
+			OmdEQQq9V34MIOcerQXlKjYiuGe4j+IeIQdhCWienLE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
