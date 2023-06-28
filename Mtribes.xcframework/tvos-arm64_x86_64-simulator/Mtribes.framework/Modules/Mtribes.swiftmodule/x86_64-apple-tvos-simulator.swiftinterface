@@ -208,8 +208,11 @@ public typealias SessionHandler = (Mtribes.MTSessionEvent) -> Swift.Void
   public func track(type: Swift.String, details: Mtribes.EventMetadata? = nil, payload: Swift.String? = nil)
   @objc deinit
 }
-public struct EventMetadata {
+public struct EventMetadata : Swift.Equatable {
+  public init(_ pair1: (Swift.String, [Swift.String])? = nil, _ pair2: (Swift.String, [Swift.String])? = nil, _ pair3: (Swift.String, [Swift.String])? = nil)
+  @available(*, deprecated, message: "Use (String, [String]) instead of (String, String)")
   public init(_ pair1: (Swift.String, Swift.String)? = nil, _ pair2: (Swift.String, Swift.String)? = nil, _ pair3: (Swift.String, Swift.String)? = nil)
+  public static func == (lhs: Mtribes.EventMetadata, rhs: Mtribes.EventMetadata) -> Swift.Bool
 }
 public struct SectionEntry : Swift.Codable, Swift.Equatable {
   public let et: Swift.String

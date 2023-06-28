@@ -5518,6 +5518,135 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "(Swift.String, [Swift.String])?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, [Swift.String])",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(Swift.String, [Swift.String])?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, [Swift.String])",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(Swift.String, [Swift.String])?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, [Swift.String])",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Mtribes13EventMetadataVyACSS_SaySSGtSg_A2Etcfc",
+            "mangledName": "$s7Mtribes13EventMetadataVyACSS_SaySSGtSg_A2Etcfc",
+            "moduleName": "Mtribes",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventMetadata",
+                "printedName": "Mtribes.EventMetadata",
+                "usr": "s:7Mtribes13EventMetadataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "(Swift.String, Swift.String)?",
                 "children": [
                   {
@@ -5604,10 +5733,46 @@
             "usr": "s:7Mtribes13EventMetadataVyACSS_SStSg_A2Dtcfc",
             "mangledName": "$s7Mtribes13EventMetadataVyACSS_SStSg_A2Dtcfc",
             "moduleName": "Mtribes",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventMetadata",
+                "printedName": "Mtribes.EventMetadata",
+                "usr": "s:7Mtribes13EventMetadataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventMetadata",
+                "printedName": "Mtribes.EventMetadata",
+                "usr": "s:7Mtribes13EventMetadataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Mtribes13EventMetadataV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7Mtribes13EventMetadataV2eeoiySbAC_ACtFZ",
+            "moduleName": "Mtribes",
+            "static": true,
             "declAttributes": [
               "AccessControl"
             ],
-            "init_kind": "Designated"
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -5617,6 +5782,15 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
         ]
       },
       {
