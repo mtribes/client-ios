@@ -11023,28 +11023,28 @@
     {
       "filePath": "\/Users\/runner\/work\/mtribes-client-ios\/mtribes-client-ios\/Mtribes\/Analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 1876,
+      "offset": 1909,
       "length": 48,
       "value": "\"^[A-Za-z0-9_-]{1,100}(\/[A-Za-z0-9_-]{1,100})?$\""
     },
     {
       "filePath": "\/Users\/runner\/work\/mtribes-client-ios\/mtribes-client-ios\/Mtribes\/Analytics\/Analytics.swift",
       "kind": "StringLiteral",
-      "offset": 1952,
+      "offset": 1985,
       "length": 8,
       "value": "\"events\""
     },
     {
       "filePath": "\/Users\/runner\/work\/mtribes-client-ios\/mtribes-client-ios\/Mtribes\/Analytics\/Analytics.swift",
       "kind": "BooleanLiteral",
-      "offset": 2028,
+      "offset": 2061,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/mtribes-client-ios\/mtribes-client-ios\/Mtribes\/Analytics\/Analytics.swift",
       "kind": "BooleanLiteral",
-      "offset": 2065,
+      "offset": 2098,
       "length": 5,
       "value": "false"
     },
